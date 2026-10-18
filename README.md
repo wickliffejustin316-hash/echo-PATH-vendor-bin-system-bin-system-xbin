@@ -23,3 +23,10 @@ namespace VanityAddressGenerator
         }
     }
 }
+using System;
+
+Console.WriteLine(
+    VanityAddressGenerator.Tools.IsBtcAddress(
+        "1BoatSLRHtKNngkdXEeobR76b53LETtpyT"
+    )
+);
